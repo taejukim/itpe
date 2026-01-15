@@ -1,0 +1,2 @@
+
+"smart_sources:9. Settings/templates/데일리로그 템플릿.md": {"path":"9. Settings/templates/데일리로그 템플릿.md","last_embed":{"hash":null},"embeddings":{},"last_read":{"hash":"1i94gyc","at":1768487084289},"class_name":"SmartSource","last_import":{"mtime":1768487065763,"size":83,"at":1768487084289,"hash":"1i94gyc"},"blocks":{"#{{date:YYYY-MM-DD}} {{date:dddd}}":[1,11],"#{{date:YYYY-MM-DD}} {{date:dddd}}#오늘의 할 일":[3,5],"#{{date:YYYY-MM-DD}} {{date:dddd}}#메모":[6,8],"#{{date:YYYY-MM-DD}} {{date:dddd}}#회고":[9,11]},"outlinks":[],"task_lines":[],"tasks":{},"codeblock_ranges":[]},
