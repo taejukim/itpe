@@ -1,0 +1,24 @@
+# OS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Obsidian specific files
+# It's recommended to ignore workspace.json as it changes frequently and contains user-specific UI state
+.obsidian/
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/cache/
+.obsidian/indexed-db/
+
+# If you want to keep your plugin settings but ignore local plugin data
+# .obsidian/plugins/*/data.json
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+.DS_Store?
+Icon?
+ehthumbs.db
+Thumbs.db
