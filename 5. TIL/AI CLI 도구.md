@@ -1,2 +1,0 @@
-claud cli
-codex cli
