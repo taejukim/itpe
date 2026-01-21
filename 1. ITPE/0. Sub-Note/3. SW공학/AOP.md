@@ -1,7 +1,9 @@
-#정보관리기술사
-#SW공학 #프로그래밍
+=======================
+AOP(Aspect Oriented Programming)
 
-- [ ] 1회
+#정보관리기술사 #SW공학 #관점지향
+
+- [x] 1회
 - [ ] 2회
 - [ ] 3회
 - [ ] 4회
@@ -9,34 +11,25 @@
 
 ## 정의
 AOP(Aspect-Oriented Programming)
-횡단 관심사를 분리하여 모듈화하는 프로그래밍 패러다임, AOP
-- 로깅, 보안, 트랜잭션 등 여러 모듈에 걸쳐 반복되는 횡단 관심사를 별도로 분리하는 기법
-- 핵심 비즈니스 로직과 횡단 관심사를 분리하여 코드의 재사용성과 유지보수성을 향상
-
-## 목적
-- 핵심 비즈니스 로직과 공통된 부가 기능(로깅, 보안, 트랜잭션 등)을 분리하여 코드의 가독성 및 유지보수성 극대화
-- 여러 모듈에 흩어진 횡단 관심사(Cross-cutting Concerns)를 모듈화하여 중복 코드를 제거하고 개발 생산성 향상
-- 비즈니스 로직의 변경 없이 공통 기능을 유연하게 적용하거나 수정할 수 있는 느슨한 결합(Loose Coupling) 구조 실현
+횡단 관심사를 분리하여 모듈성을 높이는 프로그래밍 패러다임, 관점지향 프로그래밍
+- 비즈니스 로직(Core Concern)과 공통 기능(Cross-cutting Concern)을 분리하여 관리
+- 로깅, 보안, 트랜잭션 등 여러 모듈에 흩어진 중복 코드를 별도의 '관점(Aspect)'으로 모듈화함
 
 ## 구성요소
-- Aspect: 횡단 관심사를 모듈화한 단위
-- Join Point: Aspect를 적용할 수 있는 프로그램 실행 지점
-- Pointcut: Join Point를 선택하는 표현식
-- Advice: Join Point에서 실행될 코드
-- Weaving: Aspect를 대상 코드에 적용하는 과정
-- 횡단 관심사: 로깅, 보안, 트랜잭션, 예외 처리 등 여러 모듈에 공통으로 필요한 기능
+- Core Concern: 필수요구사항
+- Join Point: 핵심관심사 횡단위치 
+-  Weaving: Joint Point에 Advice 삽입
+- Aspect: Point Cut + Advice 캡슐화
+- Point Cut: 언제 삽입?
+- Advice:  횡단관심사 구현부
+- Crosscutting Concern: 공통기능(보안, 인증)
 
 ## 구성도
-핵심 비즈니스 로직 + 횡단 관심사 → AOP 적용 → Aspect 분리 → Weaving → 통합된 코드
+![[Pasted image 20260122001832.png]]
 
 ## 키워드
-- Aspect, Join Point, Pointcut, Advice, Weaving, 횡단 관심사
+* 횡단 관심사, 분리(Separation), Aspect, Weaving, 프록시(Proxy)
 
 ## 암기법
-- 아조포어위횡: Aspect, Join Point, Pointcut, Advice, Weaving, 횡단 관심사
-
-핵심관심사 Core concern
-횡단 관심사 crosscutting concern
-위빙
-126p.
-![[Pasted image 20260117191942.png]]
+* 횡단관심사 (여러 모듈을 가로지르는 공통 기능)
+- 코조 위애포 어크
