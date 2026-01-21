@@ -3,7 +3,7 @@ RAD(Rapid Application Development)
 
 #정보관리기술사 #SW공학 #개발모델
 
-- [ ] 1회
+- [x] 1회
 - [ ] 2회
 - [ ] 3회
 - [ ] 4회
@@ -13,26 +13,21 @@ RAD(Rapid Application Development)
 도구와 사용자 참여를 통해 매우 짧은 주기에 개발하는 모델, RAD
 - CASE 도구, 비주얼 프로그래밍, 재사용 가능한 컴포넌트를 활용하여 60~90일 내에 개발 완료
 - 제임스 마틴(James Martin)이 제안하였으며, 사용자 참여를 극대화하는 JAD 기법 활용
+특징) CASE(Computer-Aided Software Engineering), 빠른 개발기간(60~90일), 사용자 적극 참여
 
 ## 구성요소
-- JAD(Joint Application Design): 사용자, 분석가, 설계자가 함께 모여 집중적으로 요구사항 도출
-- CASE 도구: 분석, 설계, 구현 과정을 자동화해주는 소프트웨어 도구 활용
-- 타임박싱(Time-boxing): 정해진 시간 내에 개발을 완료하기 위해 범위 조정
-- 컴포넌트 재사용: 이미 검증된 소프트웨어 부품을 조합하여 개발 속도 향상
-- 사용자 시연 및 평가: 주기적인 프로토타입 시연을 통한 요구사항 즉시 반영
+| 단계           | 영문                         | 설명                                   |
+| ------------ | -------------------------- | ------------------------------------ |
+| JRP          | Joint Requirement Planning | 공동 요구사항 계획 - 요구분석 (1~2주)             |
+| JAD          | Joint Application Design   | 공동 애플리케이션 설계 - 프로토타입 개발/평가/반복 (3~5주) |
+| Construction | Construction               | 개발 - 실제 시스템 구축                       |
+| Cutover      | Cutover                    | 전환 - 테스트, 인수, 운영 전환                  |
 
-## 구성도 요소
-* 프로세스: 비즈니스 모델링 -> 데이터 모델링 -> 프로세스 모델링 -> 애플리케이션 생성 -> 테스트
-* 관계: 소규모 프로젝트나 빠른 시장 출시가 필요한 경우에 적합
-```
-[JAD Session] -> [Iterative Design/Build] -> [Cutover]
-      |                   ^                     |
-      +----- (CASE Tool) -+---------------------+
-```
+## 구성도
+![[Pasted image 20260122002207.png]]
 
 ## 키워드
 * 60~90일, CASE 도구, JAD, 컴포넌트 재사용, 타임박싱
 
 ## 암기법
-* 제임스마틴 육구십 (제임스 마틴, 60~90일)
-* 제카제 (제임스마틴, CASE도구, JAD)
+- 지라씨(JRAC): JRP, JAD, (Construction), Cutover

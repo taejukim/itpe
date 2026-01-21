@@ -3,7 +3,7 @@ SCM(Supply Chain Management)
 
 #정보관리기술사 #IT경영전략 #공급망관리
 
-- [ ] 1회
+- [x] 1회
 - [ ] 2회
 - [ ] 3회
 - [ ] 4회
@@ -15,23 +15,34 @@ SCM(Supply Chain Management)
 - 정보, 물자, 자금의 흐름을 가시화하여 재고를 최소화하고 효율성을 극대화함
 
 ## 구성요소
-- SCP(Supply Chain Planning): 수요 예측 및 생산 계획 수립 (계획 중심)
-- SCE(Supply Chain Execution): 주문 처리, 물류, 창고 관리 (실행 중심)
-- CRM(Customer Relationship Management): 고객 요구사항 및 구매 이력 관리
-- SRM(Supplier Relationship Management): 협력사 선정 및 성과 관리
-- VMI(Vendor Managed Inventory): 공급업체 주도 재고 관리 체계
+- SCP(Planning): 자원운용계획, 공급자, 구매프로세스, 생산계획
+- SCE(Excution): 물류수송계획, 생산, 재고, 유통, 소비자
+- SCPM(Process): 통합 관리
+- CPFR(collaborative planning, forecasting and replenishment)
+	-  1.0: 재고 감축을 통한 비용 절감이 목표
+	- 2.0: 유연성, 환경 및 고객지향을 추구하는 전략으로 변경
 
-## 구성도 요소
-* 가치 사슬: Supplier → Manufacturer → Distributor → Retailer → Customer
-* 관계: 각 노드 간 실시간 데이터 공유를 통해 채찍 효과(Bullwhip Effect) 방지
+
+## 구성도
 ```
-[Sup] <-> [Mfg] <-> [Dist] <-> [Ret] <-> [Cust]
-  <------- 정보의 흐름 (Demand) --------
-  -------- 물자의 흐름 (Supply) -------->
+[목표: 경쟁력 강화(기업/공급체인), 낭비요소 제거(수준향상/비용최적화)]
+                                     │
+       ┌─────────────────────────────┴─────────────────────────────┐
+       │      SCP (Supply Chain Planning): 자원 운영 (계획, 통제)       │
+       │                                                           │
+       | [공급자] ◀──▶ [구매] ◀──▶ [생산(재고)] ◀──▶ [판매/유통] ◀──▶ [소비자]
+       │          └───────────┬───────────┘          │             │
+       │            (제품, 서비스 흐름 ▶)              │             │
+       │            (◀ 수요, 설계, 품질 흐름)            │             │
+       │                                                           │
+       │      SCE (Supply Chain Execution): 물류, 수송                 │
+       └─────────────────────────────┬─────────────────────────────┘
+                                     │
+                    [공급망 프로세스 관리 (SCPM)]
 ```
 
 ## 키워드
-* 채찍 효과, 가시성(Visibility), SCP, SCE, 리드 타임 단축
+* 증폭현상(채찍 효과), SCP, SCE, SCPM, CPFM2.0
 
 ## 암기법
-* 계실관관 (계획, 실행, 협력사관리, 고객관리)
+* 계실프(계획, 실행, 프로세스)

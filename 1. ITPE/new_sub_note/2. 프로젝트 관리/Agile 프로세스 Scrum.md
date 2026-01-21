@@ -3,7 +3,7 @@ Agile 프로세스 Scrum(Scrum Framework)
 
 #정보관리기술사 #프로젝트관리 #애자일
 
-- [ ] 1회
+- [x] 1회
 - [ ] 2회
 - [ ] 3회
 - [ ] 4회
@@ -14,9 +14,14 @@ Agile 프로세스 Scrum(Scrum Framework)
 - 럭비의 스크럼 대형에서 유래하였으며, 짧은 주기(Sprint)로 동작하는 제품을 만드는 방식
 - 역할(Roles), 유물(Artifacts), 이벤트(Events)의 명확한 구조를 가짐
 
+## 목적
+- 짧은 반복 주기(Sprint)를 통해 고객에게 지속적으로 가치를 전달하고 요구사항 변화에 유연하게 대응
+- 명확한 역할(PO, SM, Team)과 이벤트(Scrum)를 통해 팀의 책임감을 높이고 협업 효율성 극대화
+- 매일 진행 상황을 점검하고 회고를 통해 장애물을 신속히 제거하며 제품의 품질과 팀 성과를 지속적으로 개선
+
 ## 구성요소
 - 역할(Roles): 제품 책임자(PO), 스크럼 마스터(SM), 개발 팀
-- 유물(Artifacts): 제품 백로그(Product Backlog), 스프린트 백로그, 인도물(Increment)
+- 산출물(Artifacts): 제품 백로그(Product Backlog), 스프린트 백로그, 인도물(Increment)
 - 이벤트(Events): 스프린트(Sprint), 스프린트 계획, 데일리 스크럼, 스프린트 리뷰, 회고
 - 핵심 기법: [[번다운 차트]](Burndown Chart), 플래닝 포커(Planning Poker)
 - 가치: 확신, 전념, 존중, 용기, 개방성
@@ -25,17 +30,33 @@ Agile 프로세스 Scrum(Scrum Framework)
 * 프로세스: Product Backlog → Sprint Planning → Sprint Backlog → Sprint (Daily Scrum) → Review/Retro
 * 관계: 스프린트 기간(1~4주) 동안 변경을 최소화하고 몰입 환경 조성
 ```
-[Product Backlog] -> [Sprint Planning] -> [Sprint Backlog]
-       ^                    |                    |
-       |             [Daily Scrum] <---- [2-4 Week Sprint]
-       |                    |                    |
-       +------- [Retrospective] <---- [Sprint Review]
+  ┌─────────────────────────────────────────────────────────────┐
+  │                    SCRUM 프레임워크                            │
+  └─────────────────────────────────────────────────────────────┘
+  
+  Product     ┌──────────┐    Sprint    ┌──────────┐
+  Backlog ───▶│ Sprint   │───Backlog───▶│ Sprint   │──▶ Increment
+              │ Planning │              │ (1-4주)  │    (완료된 기능)
+              └──────────┘              └────┬─────┘
+                                             │
+                    ┌────────────────────────┼────────────────────┐
+                    │                        │                    │
+                    ▼                        ▼                    ▼
+              ┌──────────┐           ┌──────────┐          ┌──────────┐
+              │  Daily   │           │ Sprint   │          │ Sprint   │
+              │  Scrum   │           │ Review   │          │ Retro    │
+              │ (15분)   │            │(데모)    │           │(회고)     │
+              └──────────┘           └──────────┘          └──────────┘
+  
+  [역할 구조]
+  ┌────────────────┬─────────────────┬─────────────────┐
+  │ Product Owner  │  Scrum Master   │   개발 팀         │
+  │ (무엇을 만들지)│ (어떻게 지원할지)│ (어떻게 만들지)           │
+  └────────────────┴─────────────────┴─────────────────┘
 ```
 
 ## 키워드
 * 스프린트, PO/SM, 백로그, 타임박싱(Time-boxing), 가시성/검사/적응
 
 ## 암기법
-* 로아에 (Roles, Artifacts, Events)
-* 포마팀 (PO, SM, Team)
-* 계데리회 (계획, 데일리, 리뷰, 회고)
+- 스프린트, 구성원, 번다운 차트

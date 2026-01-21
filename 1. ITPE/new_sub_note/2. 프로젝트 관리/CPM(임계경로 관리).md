@@ -3,19 +3,31 @@ CPM(임계경로 관리)(Critical Path Method)
 
 #정보관리기술사 #프로젝트관리 #일정관리
 
-- [ ] 1회
+- [x] 1회
 - [ ] 2회
 - [ ] 3회
 - [ ] 4회
 - [ ] 5회
 
 ## 정의
-프로젝트의 전체 기간을 결정하는 가장 긴 경로를 분석하는 기법, CPM
-- 프로젝트 네트워크 다이어그램에서 활동의 여유 시간(Float)이 0인 경로를 식별
-- 임계 경로 상의 활동이 지연되면 프로젝트 전체 일정이 지연되므로 집중 관리가 필요함
+프로젝트 일정 관리 CPM 정의
+- 시간과 비용을 고려하여 프로젝트 일정을 관리하는 PDM(Procedure Diagram Method) 기법
+- PDM 4가지 의존 관계 : FS, FF, SS, SF
+	-  Finish to start, Finish to Finish, Start to Start, Start to finish
+
+
+## 임계 경로 도출 절차
+- 정의 : 액티비티 정의 > 전후관계배열
+- 계산 : 전진계산, 후진계산, 여유시간 계산
+- 분석 : 임계 경로 분석, 수행시간 산정
+- 프로젝트 임계경로 기간 도출
+## 목적
+- 프로젝트 완료를 위한 핵심 경로(Critical Path)를 파악하여 전체 프로젝트 기간의 최소치를 결정하고 일정 준수 보장
+- 각 활동의 여유 시간(Float)을 계산하여 자원 배분의 우선순위를 결정하고 효율적인 일정 관리 지원
+- 일정 지연 위험이 높은 작업을 집중 관리하여 프로젝트 지연을 예방하고 일정 단축 기법 적용의 근거 마련
 
 ## 구성요소
-- 주공정(Critical Path): 여유 시간이 0인 가장 긴 경로 (프로젝트 최소 소요 시간 결정)
+- 주경로(Critical Path): 여유 시간이 0인 가장 긴 경로 (프로젝트 최소 소요 시간 결정)
 - 여유 시간(Float/Slack): 전체 여유(Total Float)와 자유 여유(Free Float)
 - 전진 계산(Forward Pass): 활동의 조기 시작일(ES)과 조기 종료일(EF) 산정
 - 후진 계산(Backward Pass): 활동의 늦은 시작일(LS)과 늦은 종료일(LF) 산정
@@ -38,3 +50,6 @@ CPM(임계경로 관리)(Critical Path Method)
 
 ## 암기법
 * 전후여주 (전진계산, 후진계산, 여유시간, 주공정)
+
+## 모범답안
+- [모범답안](https://cafe.naver.com/f-e/cafes/12409209/articles/230219?menuid=892&referrerAllArticles=false&inCafeSearch=true&query=cpm&art=aW50ZXJuYWwtY2FmZS1hcnRpY2xlLXJlYWQtaW5DYWZlLXNlYXJjaC1saXN0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjYWZlVHlwZSI6IkNBRkVfSUQiLCJhcnRpY2xlSWQiOjIzMDIxOSwiaXNzdWVkQXQiOjE3Njg4Mjg1MjMyMzIsImNhZmVJZCI6MTI0MDkyMDl9.70sdrwyJzYCJz5Ltawxixu8-WnEotZ2P6bdl3qjHZLE&page=1)

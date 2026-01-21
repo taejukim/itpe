@@ -3,7 +3,7 @@ DevOps(Development and Operations)
 
 #정보관리기술사 #프로젝트관리 #DevOps
 
-- [ ] 1회
+- [x] 1회
 - [ ] 2회
 - [ ] 3회
 - [ ] 4회
@@ -11,7 +11,7 @@ DevOps(Development and Operations)
 
 ## 정의
 개발과 운영의 협업을 통한 신속한 가치 전달 체계, 데브옵스
-- Development(개발)와 Operations(운영)의 합성어로, 문화, 방식, 도구의 통합을 의미함
+- ==Development(개발)와 Operations(운영)==의 합성어로, 문화, 방식, 도구의 통합을 의미함
 - 소프트웨어 개발 생애주기(SDLC)를 단축하고 고품질의 서비스를 지속적으로 제공하는 것이 목표
 
 ## 구성요소
@@ -38,4 +38,4 @@ DevOps(Development and Operations)
 * CAMS(Culture, Automation, Measurement, Sharing), CI/CD, IaC, 무한대 루프
 
 ## 암기법
-* 캠스(CAMS), 계획코드빌테 배설운모 (계획, 코드, 빌드, 테스트, 배포, 설정, 운영, 모니터링)
+* 캠스(CAMS), 계코빌테 배설운모 (계획, 코드, 빌드, 테스트, 배포, 설정, 운영, 모니터링)
