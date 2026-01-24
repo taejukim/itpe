@@ -1,7 +1,7 @@
 =======================
 Lean 경영 _ Lead SW Development(Lean Software Development)
 
-#정보관리기술사 #프로젝트관리 #애자일
+#프로젝트관리 #애자일
 
 - [x] 1회
 - [ ] 2회

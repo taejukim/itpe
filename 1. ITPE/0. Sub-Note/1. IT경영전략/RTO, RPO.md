@@ -1,7 +1,7 @@
 =======================
 RTO, RPO(Recovery Time Objective, Recovery Point Objective)
 
-#정보관리기술사 #IT경영전략 #비즈니스연속성
+#IT경영전략 #비즈니스연속성
 
 - [x] 1회
 - [ ] 2회

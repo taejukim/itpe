@@ -1,7 +1,7 @@
 =======================
 PMBoK 8판(Project Management Body of Knowledge 8th Edition)
 
-#정보관리기술사 #프로젝트관리 #관리표준
+#프로젝트관리 #관리표준
 
 - [x] 1회
 - [ ] 2회

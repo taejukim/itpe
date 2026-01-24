@@ -1,17 +1,13 @@
 해당되는 영역에 서브노트를 작성해주세요.
 
-Refernce :
-    - IT경영전략.pdf
-    - 프로젝트관리.pdf
+Reference :
     - SW공학.pdf
 
 Target Topic list
-    - 1.IT경영전략/0. IT경영전략 Index.md
-    - 2. 프로젝트관리/0. 프로젝트 관리 Index.md
-    - 3. SW공학/0. SW공학 Index.md
+    - 3. SW공학/0. SW공학 추가 토픽 List.md 
 
 Ground rule : 
-    - new_sub_note/ 폴더를 생성
+    - Reference 기준 내용으로만 작성
     - 하위에 각 토픽의 .md 파일 생성
     - 통합해 설명이 가능하다면 통합해 생성
     - 모든 토픽은 아래 Tag추가

@@ -1,7 +1,7 @@
 =======================
 CI, CD(Continuous Integration, Continuous Deployment)
 
-#정보관리기술사 #프로젝트관리 #DevOps
+#프로젝트관리 #DevOps
 
 - [x] 1회
 - [ ] 2회

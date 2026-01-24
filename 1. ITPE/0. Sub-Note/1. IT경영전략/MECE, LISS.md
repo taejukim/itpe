@@ -1,7 +1,7 @@
 =======================
 MECE, LISS(Mutually Exclusive and Collectively Exhaustive, Linearly Independent and Spanning Set)
 
-#정보관리기술사 #IT경영전략 #논리적사고
+#IT경영전략 #논리적사고
 
 - [x] 1회
 - [ ] 2회

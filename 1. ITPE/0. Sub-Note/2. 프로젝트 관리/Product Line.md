@@ -1,10 +1,10 @@
 =======================
 Product Line(Software Product Line)
 
-#정보관리기술사 #프로젝트관리 #개발모델
+#프로젝트관리 #개발모델
 
 - [x] 1회
-- [ ] 2회
+- [x] 2회
 - [ ] 3회
 - [ ] 4회
 - [ ] 5회
@@ -16,7 +16,7 @@ Product Line(Software Product Line)
 
 ## 목적
 - CBD 연장선상의 도메인 공학 개념
-- 핵심자상 재사용으로 원가 경쟁력 확보
+- 핵심자산 재사용으로 원가 경쟁력 확보
 
 ## 구성요소
 - 핵심 자산 개발(Core Asset Development): 공통적으로 사용되는 컴포넌트, 아키텍처, 문서 개발 (Domain Engineering)

@@ -1,7 +1,7 @@
 =======================
 ESG 경영(Environmental, Social, and Governance Management)
 
-#정보관리기술사 #IT경영전략 #ESG
+#IT경영전략 #ESG
 
 - [x] 1회
 - [ ] 2회

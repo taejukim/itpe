@@ -1,7 +1,7 @@
 =======================
 ISMP(Information System Master Planning)
 
-#정보관리기술사 #IT경영전략 #정보전략계획
+#IT경영전략 #정보전략계획
 
 - [x] 1회
 - [ ] 2회

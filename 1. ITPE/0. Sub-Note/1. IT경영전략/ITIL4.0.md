@@ -1,7 +1,7 @@
 =======================
 ITIL4.0(Information Technology Infrastructure Library 4.0)
 
-#정보관리기술사 #IT경영전략 #IT서비스관리
+#IT경영전략 #IT서비스관리
 
 - [ ] 1회
 - [ ] 2회

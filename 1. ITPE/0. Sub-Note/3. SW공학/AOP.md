@@ -1,7 +1,7 @@
 =======================
 AOP(Aspect Oriented Programming)
 
-#정보관리기술사 #SW공학 #관점지향
+ #SW공학 #관점지향
 
 - [x] 1회
 - [ ] 2회

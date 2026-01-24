@@ -1,7 +1,7 @@
 =======================
 E-PMO(==Enterprise== Project Management Office)
 
-#정보관리기술사 #프로젝트관리 #조직관리
+#프로젝트관리 #조직관리
 
 - [x] 1회
 - [ ] 2회

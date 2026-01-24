@@ -1,7 +1,7 @@
 =======================
 RAD(Rapid Application Development)
 
-#정보관리기술사 #SW공학 #개발모델
+#SW공학 #개발모델
 
 - [x] 1회
 - [ ] 2회

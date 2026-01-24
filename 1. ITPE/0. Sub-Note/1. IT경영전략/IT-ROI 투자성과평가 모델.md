@@ -1,7 +1,7 @@
 =======================
 IT-ROI 투자성과평가 모델(IT-ROI Investment Performance Evaluation Model)
 
-#정보관리기술사 #IT경영전략 #IT투자성과평가
+#IT경영전략 #IT투자성과평가
 
 - [x] 1회
 - [ ] 2회

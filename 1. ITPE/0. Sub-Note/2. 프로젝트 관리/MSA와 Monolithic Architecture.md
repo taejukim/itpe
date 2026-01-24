@@ -1,7 +1,7 @@
 =======================
 MSA와 Monolithic Architecture(Microservices Architecture vs Monolithic)
 
-#정보관리기술사 #프로젝트관리 #아키텍처 
+#프로젝트관리 #아키텍처 
 
 - [x] 1회
 - [ ] 2회
