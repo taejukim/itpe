@@ -1,29 +1,21 @@
-=======================
-FMEA(Failure Mode and Effects Analysis, 고장 모드 영향 분석)
-
 #SW공학 #안정성분석 #위험분석
-
-- [ ] 1회
-- [ ] 2회
-- [ ] 3회
-- [ ] 4회
-- [ ] 5회
 
 ## 정의
 상향식 고장 영향 분석, FMEA
 - 시스템 구성요소의 잠재적 고장 모드(Failure Mode)를 식별하고 영향을 상향식으로 분석
 - 고장 발생도, 심각도, 검출도를 기반으로 위험우선순위(RPN)를 계산하여 개선 우선순위 결정
-
-## 특징
-- 귀납적: 상향식(Bottom-Up) 접근
-- 정량화: RPN 수치 산출
-- 예방적: 사전 위험 식별
-- 우선순위: 개선 순서 명확
-
+## 키워드
+- Failure Mode, Failure Effect, RPN
+- Severity, Occurrence, Detection
+- 상향식 분석, 귀납적 방법, 정량적 평가
+- 예방 보전, 위험 관리
+## 암기법
+- RPN 3요소: 심발검 (심각도-발생도-검출도)
+- FMEA 단계: 식파영평알우조재 (식별-파악-영향-평가-계산-우선순위-조치-재평가)
+- 특징: 아래에서 위로 (Bottom-Up)
 ## 목적
 - 잠재적 고장 모드 사전 식별 및 영향 분석
 - RPN 기반 위험 우선순위화 및 예방 조치 수립
-
 ## 구성요소
 - Failure Mode(고장 모드): 구성요소가 고장나는 방식
 - Failure Effect(고장 영향): 고장이 시스템에 미치는 영향
@@ -34,7 +26,6 @@ FMEA(Failure Mode and Effects Analysis, 고장 모드 영향 분석)
 - RPN(Risk Priority Number): 위험우선순위 = S × O × D
 - Action(조치): 개선 조치 계획
 - FMECA: FMEA + Criticality Analysis (치명도 분석 추가)
-
 ## 구성도
 ```
 [FMEA 분석표]
@@ -95,19 +86,14 @@ RPN 범위: 1 ~ 1000
    ↓
 8. 재평가
 ```
-
-## 키워드
-- Failure Mode, Failure Effect, RPN
-- Severity, Occurrence, Detection
-- 상향식 분석, 귀납적 방법, 정량적 평가
-- 예방 보전, 위험 관리
-
-## 암기법
-- RPN 3요소: 심발검 (심각도-발생도-검출도)
-- FMEA 단계: 식파영평알우조재 (식별-파악-영향-평가-계산-우선순위-조치-재평가)
-- 특징: 아래에서 위로 (Bottom-Up)
-
 ## 연관 토픽
 - [[SW 안정성-분석 개념]] - 안정성 개념
 - [[FTA]] - 하향식 분석 기법
 - [[HAZOP]] - 위험 분석 기법
+- [[STPA]]
+- [[프로젝트 위험관리]] - 위험 분석
+## 특징
+- 귀납적: 상향식(Bottom-Up) 접근
+- 정량화: RPN 수치 산출
+- 예방적: 사전 위험 식별
+- 우선순위: 개선 순서 명확

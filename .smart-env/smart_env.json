@@ -27,7 +27,8 @@
   "smart_notices": {
     "muted": {
       "embedding_complete": true,
-      "done_import": true
+      "done_import": true,
+      "done_initial_scan": true
     }
   },
   "smart_view_filter": {
@@ -42,7 +43,7 @@
     "chat_completion_platform": "open_router"
   },
   "connections_lists": {
-    "results_collection_key": "smart_sources",
+    "results_collection_key": "smart_blocks",
     "score_algo_key": "similarity",
     "connections_post_process": "none",
     "results_limit": 20,
@@ -53,7 +54,8 @@
         "render_markdown": true,
         "show_full_path": false
       }
-    }
+    },
+    "expanded_view": true
   },
   "context_items": {
     "template_preset": "xml_structured",
@@ -71,6 +73,6 @@
     "results_limit": 20
   },
   "embedding_models": {
-    "default_model_key": "transformers#1768480802177"
+    "default_model_key": "transformers#1769445012808"
   }
 }

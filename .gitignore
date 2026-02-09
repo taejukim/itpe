@@ -22,3 +22,9 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

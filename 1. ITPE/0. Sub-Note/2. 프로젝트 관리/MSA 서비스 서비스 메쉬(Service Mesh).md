@@ -1,18 +1,13 @@
-=======================
-MSA 서비스 서비스 메쉬(Service Mesh)(Service Mesh in MSA)
-
 #프로젝트관리 #아키텍처
-
-- [x] 1회
-- [ ] 2회
-- [ ] 3회
-- [ ] 4회
-- [ ] 5회
 
 ## 정의
 서비스 간 통신과 네트워크 관리를 담당하는 인프라 계층, 서비스 메쉬
 - MSA 환경에서 각 서비스의 데이터를 관리/제어하여 Overload를 줄이기 위한 시스템
-
+## 키워드
+* 사이드카, 데이터/컨트롤 플레인, 서킷 브레이커
+## 암기법
+* 데이터 플레인 : SCDB (Sidecar, Circuit Breaker, Service Discovery, Busness Logic)
+* 컨트롤 플레인
 ## 구성요소
 - 데이터 플레인(Data Plane): 실제 서비스 간의 모든 네트워크 트래픽을 처리하는 프록시 계층
 	- 사이드카(Sidecar): 개별 서비스 옆에 배치되어 통신을 대행하는 프록시 (예: Envoy)
@@ -30,10 +25,6 @@ MSA 서비스 서비스 메쉬(Service Mesh)(Service Mesh in MSA)
                                |
 [Service B] -- (Local) --> [Sidecar B]
 ```
-
-## 키워드
-* 사이드카, 데이터/컨트롤 플레인, 서킷 브레이커
-
-## 암기법
-* 데이터 플레인 : SCDB (Sidecar, Circuit Breaker, Service Discovery, Busness Logic)
-* 컨트롤 플레인
+## 연관 토픽
+- [[MSA와 Monolithic Architecture]] - MSA 아키텍처
+- [[아키텍처 모델-패턴]] - 아키텍처 패턴
